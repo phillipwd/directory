@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import Table from "./components/table"
+import Table from "./components/table/"
+import Header from "./components/header/"
 
 function App() {
   return (
     <div>
       {/* put search stuff here */}
-      <Table table = {Table}/>
+      <Header/>
+      <Table/>
+      {/* <Table table = {Table}/> */}
     </div>
   );
 }
